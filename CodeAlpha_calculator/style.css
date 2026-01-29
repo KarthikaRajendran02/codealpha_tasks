@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f5cea1, #fea7ea);
+}
+
+.calculator {
+    width: 280px;
+    background: #fceded;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgb(12, 11, 11);
+}
+
+#display {
+    width: 100%;
+    height: 55px;
+    font-size: 24px;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+
+    background-color: #e5e4e4;   /* display background */
+    color: #1c1c1c;              /* display text color */
+}
+/* Button grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+/* Base button style */
+button {
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.1s;
+}
+    /* Number buttons (0–9, .) */
+button:not(.operator):not(.equal):not(.action) {
+    background-color: #e4e3e3;   /* number button color */
+    color: #141313;
+}
+
+
+/* Button press effect */
+button:active {
+    transform: scale(0.92);
+}
+
+/* Number buttons */
+button:not(.operator):not(.equal):not(.action):active {
+    background-color: #f3acfa;
+}
+
+/* Operator buttons click color */
+.operator:active {
+    background-color: #fab2fae2;
+}
+
+/* Equal button click color */
+.equal:active {
+    background-color: #87f88f;
+}
+
+/* Action buttons click color */
+.action:active {
+    background-color:  #faafcfee;
+}
+
+/* Operator base color */
+.operator {
+    background: #c1f0f6f1;
+    color: rgb(14, 110, 255);
+}
+
+/* Equal base color */
+.equal {
+    background: #1174ff;
+    color: white;
+}
+
+/* Action base color */
+.action {
+    background: #c1f0f6f1;
+    color: rgb(14, 110, 255);
+
+}
+
+/* Zero button */
+.zero {
+    grid-column: span 1;
+}
