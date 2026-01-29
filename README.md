@@ -53,7 +53,7 @@ How to Run the Project
 
 1.Clone the repository
 
-   git clone  https://github.com/KarthikaRajendran02/CodeAlpha_image_gallery.git
+   git clone  https://github.com/KarthikaRajendran02/CodeAlpha_image_gallery
 
 2.Navigate to the project folder
 
