@@ -17,23 +17,23 @@ Project Objective
 
 Features
 
->> Addition
+->> Addition
 
->> Subtraction
+->> Subtraction
 
->> Multiplication
+->> Multiplication
 
->> Division
+->> Division
 
->> Clear / Reset functionality
+->> Clear / Reset functionality
 
->> Display screen for input and output
+->> Display screen for input and output
 
->> Keyboard input support (Bonus feature)
+->> Keyboard input support (Bonus feature)
 
->> Styled UI with hover effects and transitions
+->> Styled UI with hover effects and transitions
 
->> Fully responsive design
+->> Fully responsive design
 
 Technologies Used
 
