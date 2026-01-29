@@ -48,15 +48,3 @@ Image-Gallery/
 │   └── ...
 
 └── README.md
-
-How to Run the Project
-
-1.Clone the repository
-
-   git clone  https://github.com/KarthikaRajendran02/CodeAlpha_image_gallery
-
-2.Navigate to the project folder
-
-   cd CodeAlpha_image_gallery
-
-3.Open index.html in your browse
